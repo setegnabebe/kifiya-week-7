@@ -1,0 +1,7 @@
+INFO:root:Data loaded successfully from ./data/telegram_scraped_data.csv.
+INFO:root:Removed 0 duplicate rows.
+INFO:root:Filled missing values. Total missing values before: 172, after: 0.
+INFO:root:Date column standardized.
+INFO:root:'message_id' column values are within the valid range.
+INFO:root:Cleaned data saved successfully to ./data/cleaned_telegram_data.csv.
+INFO:root:Data cleaning completed successfully.

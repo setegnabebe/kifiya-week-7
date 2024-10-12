@@ -1,0 +1,7 @@
+INFO:root:Cleaned data loaded successfully from ./data/cleaned_telegram_data.csv.
+INFO:root:Extracted year, month, and day from the date column.
+INFO:root:Calculated text length for each message.
+INFO:root:Standardized channel column to lowercase.
+INFO:root:Transformed data saved successfully to ./data/transformed_telegram_data.csv.
+INFO:root:Transformed data saved successfully to ./data/transformed_telegram_data.sql.
+INFO:root:Data transformation completed successfully.
