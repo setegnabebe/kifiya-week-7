@@ -1,0 +1,40 @@
+version: 2
+
+models:
+  - name: my_first_dbt_model
+    description: "A starter dbt model"
+    columns:
+      - name: id
+        description: "The primary key for this table"
+        tests: 
+          - unique
+          - not_null
+
+      - name: channel
+        description: "The channel from which the message was sent"
+
+      - name: message_id
+        description: "The unique identifier for the message"
+        tests:
+          - unique
+          - not_null
+
+      - name: date
+        description: "The date the message was sent"
+
+      - name: text
+        description: "The content of the message"
+
+      - name: media
+        description: "Media associated with the message"
+
+  - name: my_second_dbt_model
+    description: "A starter dbt model"
+    columns:
+      - name: id
+        description: "The primary key for this table"
+        tests:  
+          - unique
+          - not_null
+
+
